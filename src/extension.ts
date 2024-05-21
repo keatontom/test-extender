@@ -14,6 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
     };
 
     return api;
+    console.log("Hi");
 }
 
 export function deactivate() {}
